@@ -8,4 +8,4 @@ phases:
       - pwd
 artifacts:
   files:
-    - ./app-debug.apk
+    - app/build/outputs/apk/app-debug.apk
