@@ -6,7 +6,7 @@ phases:
       - chmod +x gradlew
       - ./gradlew assembleDebug
       - ls
-      - chmod 777 /codebuild/output/src541901967/src
+      - chmod 777 /codebuild/output
 artifacts:
   files:
     - ./app/build/outputs/apk/app-debug.apk
