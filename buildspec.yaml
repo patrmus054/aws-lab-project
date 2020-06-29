@@ -5,6 +5,7 @@ phases:
     commands:
       - chmod +x gradlew
       - ./gradlew assembleDebug
+      - pwd
 artifacts:
   files:
     - ./app-debug.apk
