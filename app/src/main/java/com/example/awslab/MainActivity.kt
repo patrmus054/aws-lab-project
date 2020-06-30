@@ -9,6 +9,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Toast.makeText(this, "teest", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "AWS super jest", Toast.LENGTH_SHORT).show()
     }
 }
